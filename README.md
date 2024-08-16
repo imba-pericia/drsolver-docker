@@ -1,6 +1,6 @@
 # Drsolver docker
 
-This repository provides a Dockerfile for building a Docker image with DrSolver and DrPlotter.
+This repository provides a Dockerfile for building a Docker image with DrSolver only.
 
 **Current DrPlotter Version: 1.0.3**
 
