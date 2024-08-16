@@ -1,3 +1,16 @@
+# Drsolver docker
+
+This repository provides a Dockerfile for building a Docker image with DrSolver and DrPlotter.
+
+**Current DrPlotter Version: 1.0.3**
+
+To use a different version of DrPlotter, modify the download link in the Dockerfile (line 10):
+
+```dockerfile
+# Line 10:
+RUN wget -O drplotter.deb "https://github.com/Chia-Network/drplotter/releases/download/1.0.3/drplotter_1.0.3_amd64.deb"
+
+
 ## Running drsolver-docker
 
 This guide provides instructions for cloning the drsolver-docker repository and running the container, assuming Docker is already installed on your system.
