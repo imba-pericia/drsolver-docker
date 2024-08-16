@@ -1,6 +1,6 @@
 FROM nvidia/cuda:12.0.1-runtime-ubuntu22.04
 
-# Установка необходимых пакетов
+# Install necessary packages
 RUN apt-get update && apt-get install -y \
     curl \
     wget \
@@ -8,12 +8,12 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \
     build-essential
 
-# Установка DrPlotter 
+# Install DrPlotter
 RUN wget -O drplotter.deb "https://github.com/Chia-Network/drplotter/releases/download/1.0.3/drplotter_1.0.3_amd64.deb" 
 RUN dpkg -i drplotter.deb
 
-# Очистка кэша apt
+# Clean up apt cache
 RUN apt-get clean
 
-# Запуск DrSolver при запуске контейнера
+# Run DrSolver when the container starts
 CMD ["drsolver"]
