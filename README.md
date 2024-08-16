@@ -9,7 +9,7 @@ To use a different version of DrPlotter, modify the download link in the Dockerf
 ```dockerfile
 # Line 10:
 RUN wget -O drplotter.deb "https://github.com/Chia-Network/drplotter/releases/download/1.0.3/drplotter_1.0.3_amd64.deb"
-
+```
 
 ## Running drsolver-docker
 
