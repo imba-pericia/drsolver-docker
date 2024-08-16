@@ -61,8 +61,6 @@ docker attach <container_id_or_name>
 
 Replace `<container_id_or_name>` with the ID or name of your container. You can find this information using `docker ps`.
 
-This comprehensive guide should help you successfully run the `drsolver-docker` container. Remember to consult the repository's documentation for specific details and troubleshooting tips.
-
 
 
 
