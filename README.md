@@ -1,10 +1,3 @@
-docker build -t drsolver .
-
-
-docker run -it --gpus '"device=0,3,4"' -e DRSERVER_IP_ADDRESS=Your_drserver_ip_address:port drsolver
-
-docker run -it --gpus '"device=0"' --rm --restart=always -e DRSERVER_IP_ADDRESS=192.168.1.6:8080 drsolver
-
 ## Running drsolver-docker
 
 This guide provides instructions for cloning the drsolver-docker repository and running the container, assuming Docker is already installed on your system.
