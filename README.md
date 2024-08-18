@@ -30,7 +30,7 @@ cd drsolver-docker
 **3. Build the Docker image:**
 
 ```bash
-docker build -t drsolver .
+sudo docker build -t drsolver .
 ```
 
 This command builds a Docker image named `drsolver` using the `Dockerfile` in the current directory (`.`).
